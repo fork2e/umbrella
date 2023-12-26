@@ -1,0 +1,6 @@
+input::file-selector-button {
+  display: none;
+}
+input[type=file] {
+  max-width: 145px;
+}
