@@ -1,0 +1,7 @@
+input[type=checkbox]:checked+span {
+  background-color: #6624FF;
+}
+
+input[type=checkbox]:checked+span::before {
+  transform: translateX(50%);
+}
