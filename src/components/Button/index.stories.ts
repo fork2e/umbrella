@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Button } from './Button';
+import { Button } from './index';
 
 const meta = {
   title: 'Umbrella/Button',
@@ -14,10 +14,10 @@ type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    link: 'https://www.google.com',
     children: 'Button',
     white: false,
     withIcon: false,
+    fullWidth: false,
     iconPosition: "left",
     iconType: "about",
   },
