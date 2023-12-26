@@ -10,6 +10,8 @@ export default {
         whiteDark: "#E3E3E3",
         secondary: "#01092E",
         black: "#131313",
+        gray: "#D9D9D9",
+        input: "#F1F1F1",
       }
     },
   },
